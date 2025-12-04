@@ -1,0 +1,119 @@
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", sans-serif;
+  color: rgb(58, 58, 58);
+}
+
+.navbar {
+  background: linear-gradient(to right, #0061ff, #60efff) !important;
+  box-shadow: 0px 4px 10px gray;
+  padding: 15px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.py-5.text-center.bg-light {
+  background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(35, 35, 35, 0.6)), url("https://learn.g2.com/hubfs/iStock-685053710.jpg") center/cover !important;
+  color: white;
+  padding-top: 100px !important;
+  background-attachment: fixed !important;
+}
+
+.py-5.text-center.bg-light .text-muted {
+  color: white !important;
+}
+
+.py-5.text-center.bg-light img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+}
+
+#about {
+  background: linear-gradient(rgba(117, 117, 117, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.adsttc.com/media/images/6338/66d8/4dba/6e52/5dde/7256/large_jpg/post-human-aesthetics-in-architecture-interview-with-matias-del-campo_7.jpg?1664640807") center/cover;
+  color: white;
+  background-attachment: fixed;
+  padding: 80px !important;
+}
+
+#projects {
+  background-color: azure;
+  padding: 80px !important;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#contact {
+  background: linear-gradient(to top, #dfe9f3 0%, #ffffff 100%);
+  padding: 80px !important;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid #e1e1e1;
+}
+
+input {
+  border-radius: 10px;
+  background-color: azure;
+  padding: 12px !important;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #0061ff, #60efff);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-weight: bold;
+  box-shadow: 0px 4px 15px rgb(70, 70, 255);
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #60efff, #0061ff);
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-bottom: 4px solid white;
+  padding-bottom: 10px;
+}
+
+#projects h3,
+#contact h3 {
+  color: #0061ff;
+  border-bottom: 4px solid #0061ff;
+}
